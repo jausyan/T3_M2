@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # T3 — TEKNOFEST AI in Aviation: Mission 2 (Position Estimation)
 
 ROS2 (Humble, C++) pipeline for **Mission 2** of the TEKNOFEST 2026
@@ -187,3 +188,6 @@ detector and a foundation-model matcher (e.g. LightGlue/OmniGlue) are the
 natural companions; the `frame_client_node` already sends the
 `detected_objects` / `detected_undefined_objects` arrays (empty for now), so
 those models can be added without touching the transport layer.
+=======
+# T3_M2
+>>>>>>> 4fd078d29665c024292e94d7d38af69ff7233932
