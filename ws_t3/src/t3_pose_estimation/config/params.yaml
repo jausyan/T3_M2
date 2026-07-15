@@ -1,0 +1,36 @@
+frame_client_node:
+  ros__parameters:
+    # === set these on competition day ===
+    server_url: "http://127.0.0.1:5000"      # given before the test session (sec. 8)
+    user_url: "http://127.0.0.1:5000/users/1/"  # your team's user url
+    frames_endpoint: "/frames"
+    results_endpoint: "/prediction"
+    # ====================================
+    send_results: true          # POST results to the server
+    fetch_score: true           # rehearsal only: ask the mock server for the score at the end
+    prediction_timeout_sec: 20.0
+    min_frame_period_sec: 0.0   # >0 to slow the rehearsal down and watch RViz
+    http_retries: 5
+
+pose_estimator_node:
+  ros__parameters:
+    # Camera intrinsics (OpenCV FileStorage yaml). The competition shares the
+    # real camera parameters -> put them in a file and point this at it.
+    calib_file: ""              # set by launch file; empty = derive from FOV below
+    fallback_fov_deg: 66.0
+    # feature tracking
+    max_features: 600
+    min_tracked: 25
+    refresh_below: 200
+    gftt_quality: 0.01
+    gftt_min_dist: 12.0
+    ransac_px: 3.0
+    # robustness
+    freeze_diff_thresh: 0.35    # mean |gray diff| below this = frozen frame
+    max_step_m: 15.0            # clamp on per-frame displacement (7.5 fps -> 112 m/s)
+    min_inlier_frac: 0.5        # calibration sample needs this RANSAC inlier share
+    min_u_for_calib: 0.005      # skip near-zero-motion calibration pairs
+    # scale calibration fits
+    min_full_samples: 40        # samples before the full 2x2 A is trusted
+    min_sim_samples: 15         # samples before the similarity fallback fit
+    cond_ratio: 0.05            # Suu eigenvalue ratio needed for the full fit

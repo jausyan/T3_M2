@@ -1,0 +1,27 @@
+[ 50%] Built target frame_client_node
+[ 75%] Building CXX object CMakeFiles/pose_estimator_node.dir/src/pose_estimator_node.cpp.o
+[100%] Linking CXX executable pose_estimator_node
+[100%] Built target pose_estimator_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/lib/t3_pose_estimation/frame_client_node
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/lib/t3_pose_estimation/pose_estimator_node
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/launch/mission2.launch.py
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/config/camera_synthetic.yaml
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/config/params.yaml
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/rviz/t3_mission2.rviz
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/ament_index/resource_index/package_run_dependencies/t3_pose_estimation
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/ament_index/resource_index/parent_prefix_path/t3_pose_estimation
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/environment/path.sh
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/environment/path.dsv
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/local_setup.bash
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/local_setup.sh
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/local_setup.zsh
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/local_setup.dsv
+-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/package.dsv
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/ament_index/resource_index/packages/t3_pose_estimation
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/cmake/t3_pose_estimationConfig.cmake
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/cmake/t3_pose_estimationConfig-version.cmake
+-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/package.xml

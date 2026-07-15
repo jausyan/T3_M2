@@ -1,0 +1,427 @@
+[0.000000] (-) TimerEvent: {}
+[0.000421] (t3_interfaces) JobQueued: {'identifier': 't3_interfaces', 'dependencies': OrderedDict()}
+[0.000497] (t3_pose_estimation) JobQueued: {'identifier': 't3_pose_estimation', 'dependencies': OrderedDict([('t3_interfaces', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces')])}
+[0.000540] (t3_interfaces) JobStarted: {'identifier': 't3_interfaces'}
+[0.013571] (t3_interfaces) JobProgress: {'identifier': 't3_interfaces', 'progress': 'cmake'}
+[0.015106] (t3_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '/home/el-system/Documents/T3/ws_t3/src/t3_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/el-system/Documents/T3/ws_t3/install/t3_interfaces'], 'cwd': '/home/el-system/Documents/T3/ws_t3/build/t3_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'claude-code_2-1-209_agent'), ('USER', 'el-system'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'id_ID.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/el-system/.local/lib/python3.10/site-packages/openvino/libs:/home/el-system/ros2_ws/install/mid360_simulation/lib:/home/el-system/.local/opencv-4.10/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/el-system'), ('OLDPWD', '/home/el-system/Documents/T3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/el-system/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/el-system/.nvm/versions/node/v22.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1733'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3801'), ('NVM_DIR', '/home/el-system/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install:/home/el-system/ros2_ws/install:/home/el-system/KRTI_2026_PX4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'el-system'), ('JOURNAL_STREAM', '8:20737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('OPENVINO_LIBS', '/home/el-system/.local/lib/python3.10/site-packages/openvino/libs'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el-system'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/el-system/.local/bin:/home/el-system/.local/bin:/opt/ros/humble/bin:/home/el-system/.nvm/versions/node/v22.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/el-tech:@/tmp/.ICE-unix/1929,unix/el-tech:/tmp/.ICE-unix/1929'), ('INVOCATION_ID', '1b6b6ae613fb4d2db26251afa6c6cba0'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8ea3c60a-7fd5-493c-8ea5-7c70325c6e5a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('CLAUDE_CODE_SESSION_ID', '711f6767-852b-4937-b11e-28f5aa74e327'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/el-system/Documents/T3/ws_t3/build/t3_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/el-system/.local/share/claude/versions/2.1.209'), ('PYTHONPATH', '/home/el-system/.local/opencv-4.10/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble')]), 'shell': False}
+[0.036212] (t3_interfaces) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.036472] (t3_interfaces) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.036588] (t3_interfaces) StderrLine: {'line': b'  CMake.\n'}
+[0.036686] (t3_interfaces) StderrLine: {'line': b'\n'}
+[0.036778] (t3_interfaces) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.036873] (t3_interfaces) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.036965] (t3_interfaces) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.037067] (t3_interfaces) StderrLine: {'line': b'\n'}
+[0.037167] (t3_interfaces) StderrLine: {'line': b'\n'}
+[0.099339] (-) TimerEvent: {}
+[0.134320] (t3_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199469] (-) TimerEvent: {}
+[0.248430] (t3_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.265892] (t3_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299621] (-) TimerEvent: {}
+[0.344373] (t3_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.364783] (t3_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.365425] (t3_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.366317] (t3_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.386996] (t3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399735] (-) TimerEvent: {}
+[0.463802] (t3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.493902] (t3_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.494558] (t3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.495765] (t3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.499842] (-) TimerEvent: {}
+[0.510393] (t3_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600005] (-) TimerEvent: {}
+[0.682911] (t3_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.700140] (-) TimerEvent: {}
+[0.785601] (t3_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.800225] (-) TimerEvent: {}
+[0.870311] (t3_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.881139] (t3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.897662] (t3_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.900302] (-) TimerEvent: {}
+[0.991619] (t3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.000433] (-) TimerEvent: {}
+[1.072942] (t3_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.100615] (-) TimerEvent: {}
+[1.123390] (t3_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.200753] (-) TimerEvent: {}
+[1.300981] (-) TimerEvent: {}
+[1.401215] (-) TimerEvent: {}
+[1.501440] (-) TimerEvent: {}
+[1.601663] (-) TimerEvent: {}
+[1.701900] (-) TimerEvent: {}
+[1.802136] (-) TimerEvent: {}
+[1.815290] (t3_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.902257] (-) TimerEvent: {}
+[2.002525] (-) TimerEvent: {}
+[2.102767] (-) TimerEvent: {}
+[2.203016] (-) TimerEvent: {}
+[2.303262] (-) TimerEvent: {}
+[2.403494] (-) TimerEvent: {}
+[2.484978] (t3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.503613] (-) TimerEvent: {}
+[2.603866] (-) TimerEvent: {}
+[2.704182] (-) TimerEvent: {}
+[2.804390] (-) TimerEvent: {}
+[2.904643] (-) TimerEvent: {}
+[3.005003] (-) TimerEvent: {}
+[3.105252] (-) TimerEvent: {}
+[3.205436] (-) TimerEvent: {}
+[3.221032] (t3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.223809] (t3_interfaces) StderrLine: {'line': b'CMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[3.223982] (t3_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[3.224084] (t3_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[3.224190] (t3_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[3.224276] (t3_interfaces) StderrLine: {'line': b'\n'}
+[3.224364] (t3_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.224449] (t3_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.224532] (t3_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.224614] (t3_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[3.224699] (t3_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.224780] (t3_interfaces) StderrLine: {'line': b'\n'}
+[3.251909] (t3_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")\n'}
+[3.253606] (t3_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.254373] (t3_interfaces) StderrLine: {'line': b'CMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[3.254574] (t3_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[3.254672] (t3_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[3.254764] (t3_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[3.254854] (t3_interfaces) StderrLine: {'line': b'\n'}
+[3.254949] (t3_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.255040] (t3_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[3.255158] (t3_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.255254] (t3_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.255349] (t3_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[3.255442] (t3_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.255535] (t3_interfaces) StderrLine: {'line': b'\n'}
+[3.284313] (t3_interfaces) StderrLine: {'line': b'CMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[3.284547] (t3_interfaces) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[3.284642] (t3_interfaces) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[3.284727] (t3_interfaces) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[3.284810] (t3_interfaces) StderrLine: {'line': b'\n'}
+[3.284894] (t3_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.284975] (t3_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[3.285089] (t3_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[3.285178] (t3_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[3.285259] (t3_interfaces) StderrLine: {'line': b'  CMakeLists.txt:9 (rosidl_generate_interfaces)\n'}
+[3.285339] (t3_interfaces) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.285427] (t3_interfaces) StderrLine: {'line': b'\n'}
+[3.305749] (t3_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")\n'}
+[3.305942] (-) TimerEvent: {}
+[3.305971] (t3_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.306072] (t3_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.306164] (t3_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.331645] (t3_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[3.406103] (-) TimerEvent: {}
+[3.506283] (-) TimerEvent: {}
+[3.584828] (t3_interfaces) StdoutLine: {'line': b'-- Configuring done (3.5s)\n'}
+[3.606399] (-) TimerEvent: {}
+[3.618560] (t3_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.624895] (t3_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/el-system/Documents/T3/ws_t3/build/t3_interfaces\n'}
+[3.632448] (t3_interfaces) CommandEnded: {'returncode': 0}
+[3.633375] (t3_interfaces) JobProgress: {'identifier': 't3_interfaces', 'progress': 'build'}
+[3.635098] (t3_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/el-system/Documents/T3/ws_t3/build/t3_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/el-system/Documents/T3/ws_t3/build/t3_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'claude-code_2-1-209_agent'), ('USER', 'el-system'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'id_ID.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/el-system/.local/lib/python3.10/site-packages/openvino/libs:/home/el-system/ros2_ws/install/mid360_simulation/lib:/home/el-system/.local/opencv-4.10/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/el-system'), ('OLDPWD', '/home/el-system/Documents/T3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/el-system/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/el-system/.nvm/versions/node/v22.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1733'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3801'), ('NVM_DIR', '/home/el-system/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install:/home/el-system/ros2_ws/install:/home/el-system/KRTI_2026_PX4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'el-system'), ('JOURNAL_STREAM', '8:20737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('OPENVINO_LIBS', '/home/el-system/.local/lib/python3.10/site-packages/openvino/libs'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el-system'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/el-system/.local/bin:/home/el-system/.local/bin:/opt/ros/humble/bin:/home/el-system/.nvm/versions/node/v22.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/el-tech:@/tmp/.ICE-unix/1929,unix/el-tech:/tmp/.ICE-unix/1929'), ('INVOCATION_ID', '1b6b6ae613fb4d2db26251afa6c6cba0'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8ea3c60a-7fd5-493c-8ea5-7c70325c6e5a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('CLAUDE_CODE_SESSION_ID', '711f6767-852b-4937-b11e-28f5aa74e327'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/el-system/Documents/T3/ws_t3/build/t3_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/el-system/.local/share/claude/versions/2.1.209'), ('PYTHONPATH', '/home/el-system/.local/opencv-4.10/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble')]), 'shell': False}
+[3.657307] (t3_interfaces) StdoutLine: {'line': b'[  2%] Generating C code for ROS interfaces\n'}
+[3.657678] (t3_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_t3_interfaces\n'}
+[3.658938] (t3_interfaces) StdoutLine: {'line': b'[  5%] Generating C++ code for ROS interfaces\n'}
+[3.660037] (t3_interfaces) StdoutLine: {'line': b'[  7%] Generating Rust code for ROS interfaces\n'}
+[3.706506] (-) TimerEvent: {}
+[3.806716] (-) TimerEvent: {}
+[3.863410] (t3_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.864046] (t3_interfaces) StdoutLine: {'line': b'creating t3_interfaces.egg-info\n'}
+[3.864597] (t3_interfaces) StdoutLine: {'line': b'writing t3_interfaces.egg-info/PKG-INFO\n'}
+[3.864916] (t3_interfaces) StdoutLine: {'line': b'writing dependency_links to t3_interfaces.egg-info/dependency_links.txt\n'}
+[3.865050] (t3_interfaces) StdoutLine: {'line': b'writing top-level names to t3_interfaces.egg-info/top_level.txt\n'}
+[3.865196] (t3_interfaces) StdoutLine: {'line': b"writing manifest file 't3_interfaces.egg-info/SOURCES.txt'\n"}
+[3.867571] (t3_interfaces) StdoutLine: {'line': b"reading manifest file 't3_interfaces.egg-info/SOURCES.txt'\n"}
+[3.868071] (t3_interfaces) StdoutLine: {'line': b"writing manifest file 't3_interfaces.egg-info/SOURCES.txt'\n"}
+[3.892268] (t3_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_t3_interfaces_egg\n'}
+[3.906823] (-) TimerEvent: {}
+[4.007039] (-) TimerEvent: {}
+[4.095829] (t3_interfaces) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/t3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/t3_interfaces/msg/detail/frame_info__functions.c.o\n'}
+[4.096233] (t3_interfaces) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/t3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/t3_interfaces/msg/detail/pose_estimate__functions.c.o\n'}
+[4.107162] (-) TimerEvent: {}
+[4.111523] (t3_interfaces) StdoutLine: {'line': b'[ 12%] Built target t3_interfaces__rs\n'}
+[4.183073] (t3_interfaces) StdoutLine: {'line': b'[ 15%] Linking C shared library libt3_interfaces__rosidl_generator_c.so\n'}
+[4.207269] (-) TimerEvent: {}
+[4.217423] (t3_interfaces) StdoutLine: {'line': b'[ 15%] Built target t3_interfaces__rosidl_generator_c\n'}
+[4.224470] (t3_interfaces) StdoutLine: {'line': b'[ 17%] Generating C type support for eProsima Fast-RTPS\n'}
+[4.225231] (t3_interfaces) StdoutLine: {'line': b'[ 22%] Generating C type support dispatch for ROS interfaces\n'}
+[4.225451] (t3_interfaces) StdoutLine: {'line': b'[ 22%] Generating C introspection for ROS interfaces\n'}
+[4.307393] (-) TimerEvent: {}
+[4.355906] (t3_interfaces) StdoutLine: {'line': b'[ 22%] Built target t3_interfaces__cpp\n'}
+[4.363149] (t3_interfaces) StdoutLine: {'line': b'[ 27%] Generating C++ type support dispatch for ROS interfaces\n'}
+[4.363617] (t3_interfaces) StdoutLine: {'line': b'[ 27%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[4.363814] (t3_interfaces) StdoutLine: {'line': b'[ 30%] Generating C++ introspection for ROS interfaces\n'}
+[4.407517] (-) TimerEvent: {}
+[4.507806] (-) TimerEvent: {}
+[4.608160] (-) TimerEvent: {}
+[4.673256] (t3_interfaces) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/t3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/t3_interfaces/msg/frame_info__type_support.cpp.o\n'}
+[4.674684] (t3_interfaces) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/t3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/t3_interfaces/msg/pose_estimate__type_support.cpp.o\n'}
+[4.708269] (-) TimerEvent: {}
+[4.725269] (t3_interfaces) StdoutLine: {'line': b'[ 37%] Linking CXX shared library libt3_interfaces__rosidl_typesupport_c.so\n'}
+[4.782590] (t3_interfaces) StdoutLine: {'line': b'[ 37%] Built target t3_interfaces__rosidl_typesupport_c\n'}
+[4.791408] (t3_interfaces) StdoutLine: {'line': b'[ 40%] Building C object CMakeFiles/t3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/t3_interfaces/msg/detail/pose_estimate__type_support.c.o\n'}
+[4.791720] (t3_interfaces) StdoutLine: {'line': b'[ 42%] Building C object CMakeFiles/t3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/t3_interfaces/msg/detail/frame_info__type_support.c.o\n'}
+[4.808398] (-) TimerEvent: {}
+[4.853534] (t3_interfaces) StdoutLine: {'line': b'[ 45%] Linking C shared library libt3_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.895246] (t3_interfaces) StdoutLine: {'line': b'[ 45%] Built target t3_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.908514] (-) TimerEvent: {}
+[4.970095] (t3_interfaces) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/t3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/t3_interfaces/msg/detail/frame_info__type_support_c.cpp.o\n'}
+[4.970392] (t3_interfaces) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/t3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/t3_interfaces/msg/detail/pose_estimate__type_support_c.cpp.o\n'}
+[5.008682] (-) TimerEvent: {}
+[5.011112] (t3_interfaces) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/t3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/t3_interfaces/msg/detail/dds_fastrtps/frame_info__type_support.cpp.o\n'}
+[5.011632] (t3_interfaces) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/t3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/t3_interfaces/msg/detail/dds_fastrtps/pose_estimate__type_support.cpp.o\n'}
+[5.082141] (t3_interfaces) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/t3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/t3_interfaces/msg/frame_info__type_support.cpp.o\n'}
+[5.082520] (t3_interfaces) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/t3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/t3_interfaces/msg/pose_estimate__type_support.cpp.o\n'}
+[5.083749] (t3_interfaces) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/t3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/t3_interfaces/msg/detail/frame_info__type_support.cpp.o\n'}
+[5.086136] (t3_interfaces) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/t3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/t3_interfaces/msg/detail/pose_estimate__type_support.cpp.o\n'}
+[5.108853] (-) TimerEvent: {}
+[5.209168] (-) TimerEvent: {}
+[5.309511] (-) TimerEvent: {}
+[5.409842] (-) TimerEvent: {}
+[5.512181] (-) TimerEvent: {}
+[5.614172] (-) TimerEvent: {}
+[5.668145] (t3_interfaces) StdoutLine: {'line': b'[ 67%] Linking CXX shared library libt3_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.716208] (-) TimerEvent: {}
+[5.725410] (t3_interfaces) StdoutLine: {'line': b'[ 67%] Built target t3_interfaces__rosidl_typesupport_cpp\n'}
+[5.752390] (t3_interfaces) StdoutLine: {'line': b'[ 70%] Linking CXX shared library libt3_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.753105] (t3_interfaces) StdoutLine: {'line': b'[ 72%] Linking CXX shared library libt3_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.816336] (-) TimerEvent: {}
+[5.829328] (t3_interfaces) StdoutLine: {'line': b'[ 72%] Built target t3_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.834459] (t3_interfaces) StdoutLine: {'line': b'[ 72%] Built target t3_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.856183] (t3_interfaces) StdoutLine: {'line': b'[ 75%] Linking CXX shared library libt3_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.916491] (-) TimerEvent: {}
+[5.927575] (t3_interfaces) StdoutLine: {'line': b'[ 75%] Built target t3_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.940401] (t3_interfaces) StdoutLine: {'line': b'[ 75%] Built target t3_interfaces\n'}
+[5.953426] (t3_interfaces) StdoutLine: {'line': b'[ 77%] Generating Python code for ROS interfaces\n'}
+[6.016620] (-) TimerEvent: {}
+[6.116932] (-) TimerEvent: {}
+[6.217178] (-) TimerEvent: {}
+[6.317425] (-) TimerEvent: {}
+[6.367373] (t3_interfaces) StdoutLine: {'line': b'[ 77%] Built target t3_interfaces__py\n'}
+[6.377757] (t3_interfaces) StdoutLine: {'line': b'[ 80%] Building C object CMakeFiles/t3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/t3_interfaces/msg/_frame_info_s.c.o\n'}
+[6.377997] (t3_interfaces) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/t3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/t3_interfaces/msg/_pose_estimate_s.c.o\n'}
+[6.417563] (-) TimerEvent: {}
+[6.468093] (t3_interfaces) StdoutLine: {'line': b'[ 85%] Linking C shared library rosidl_generator_py/t3_interfaces/libt3_interfaces__rosidl_generator_py.so\n'}
+[6.505275] (t3_interfaces) StdoutLine: {'line': b'[ 85%] Built target t3_interfaces__rosidl_generator_py\n'}
+[6.517751] (-) TimerEvent: {}
+[6.519111] (t3_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/t3_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/t3_interfaces/_t3_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[6.519452] (t3_interfaces) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/t3_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/t3_interfaces/_t3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[6.519628] (t3_interfaces) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/t3_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/t3_interfaces/_t3_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[6.595342] (t3_interfaces) StdoutLine: {'line': b'[ 95%] Linking C shared library rosidl_generator_py/t3_interfaces/t3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.617874] (-) TimerEvent: {}
+[6.622782] (t3_interfaces) StdoutLine: {'line': b'[ 97%] Linking C shared library rosidl_generator_py/t3_interfaces/t3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.624207] (t3_interfaces) StdoutLine: {'line': b'[ 97%] Built target t3_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.649009] (t3_interfaces) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/t3_interfaces/t3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.652381] (t3_interfaces) StdoutLine: {'line': b'[100%] Built target t3_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.685487] (t3_interfaces) StdoutLine: {'line': b'[100%] Built target t3_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.692737] (t3_interfaces) CommandEnded: {'returncode': 0}
+[6.693695] (t3_interfaces) JobProgress: {'identifier': 't3_interfaces', 'progress': 'install'}
+[6.698768] (t3_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/el-system/Documents/T3/ws_t3/build/t3_interfaces'], 'cwd': '/home/el-system/Documents/T3/ws_t3/build/t3_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'claude-code_2-1-209_agent'), ('USER', 'el-system'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'id_ID.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/el-system/.local/lib/python3.10/site-packages/openvino/libs:/home/el-system/ros2_ws/install/mid360_simulation/lib:/home/el-system/.local/opencv-4.10/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/el-system'), ('OLDPWD', '/home/el-system/Documents/T3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/el-system/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/el-system/.nvm/versions/node/v22.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1733'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3801'), ('NVM_DIR', '/home/el-system/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install:/home/el-system/ros2_ws/install:/home/el-system/KRTI_2026_PX4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'el-system'), ('JOURNAL_STREAM', '8:20737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('OPENVINO_LIBS', '/home/el-system/.local/lib/python3.10/site-packages/openvino/libs'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el-system'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/el-system/.local/bin:/home/el-system/.local/bin:/opt/ros/humble/bin:/home/el-system/.nvm/versions/node/v22.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/el-tech:@/tmp/.ICE-unix/1929,unix/el-tech:/tmp/.ICE-unix/1929'), ('INVOCATION_ID', '1b6b6ae613fb4d2db26251afa6c6cba0'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8ea3c60a-7fd5-493c-8ea5-7c70325c6e5a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('CLAUDE_CODE_SESSION_ID', '711f6767-852b-4937-b11e-28f5aa74e327'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/el-system/Documents/T3/ws_t3/build/t3_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/el-system/.local/share/claude/versions/2.1.209'), ('PYTHONPATH', '/home/el-system/.local/opencv-4.10/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble')]), 'shell': False}
+[6.705279] (t3_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.706403] (t3_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.706980] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/ament_index/resource_index/rosidl_interfaces/t3_interfaces\n'}
+[6.711846] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__functions.h\n'}
+[6.715843] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__struct.h\n'}
+[6.717976] (-) TimerEvent: {}
+[6.719746] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__type_support.h\n'}
+[6.723601] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__functions.h\n'}
+[6.727291] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__struct.h\n'}
+[6.731131] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__type_support.h\n'}
+[6.734969] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/frame_info.h\n'}
+[6.738161] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/pose_estimate.h\n'}
+[6.740634] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.743527] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/environment/library_path.sh\n'}
+[6.746075] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/environment/library_path.dsv\n'}
+[6.748375] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__rosidl_typesupport_fastrtps_c.h\n'}
+[6.751121] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__rosidl_typesupport_fastrtps_c.h\n'}
+[6.753615] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.756443] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__rosidl_typesupport_introspection_c.h\n'}
+[6.758874] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__rosidl_typesupport_introspection_c.h\n'}
+[6.761779] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.764874] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__builder.hpp\n'}
+[6.767627] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__struct.hpp\n'}
+[6.770858] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__traits.hpp\n'}
+[6.773842] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__type_support.hpp\n'}
+[6.776883] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__builder.hpp\n'}
+[6.779764] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__struct.hpp\n'}
+[6.782402] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__traits.hpp\n'}
+[6.785450] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__type_support.hpp\n'}
+[6.788550] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/frame_info.hpp\n'}
+[6.791567] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/pose_estimate.hpp\n'}
+[6.794333] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.797985] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.801916] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.805764] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.809316] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/frame_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.813181] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/include/t3_interfaces/t3_interfaces/msg/detail/pose_estimate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.816670] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/environment/pythonpath.sh\n'}
+[6.818123] (-) TimerEvent: {}
+[6.819808] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/environment/pythonpath.dsv\n'}
+[6.824191] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[6.827360] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.830883] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.834305] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[6.838008] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/__init__.py\n'}
+[6.840774] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/_t3_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[6.842756] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/_t3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.845397] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/_t3_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.848150] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/libt3_interfaces__rosidl_generator_py.so\n'}
+[6.851003] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/msg/__init__.py\n'}
+[6.853610] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/msg/_frame_info.py\n'}
+[6.856378] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/msg/_frame_info_s.c\n'}
+[6.859469] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/msg/_pose_estimate.py\n'}
+[6.862247] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/msg/_pose_estimate_s.c\n'}
+[6.864340] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/t3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.866549] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/t3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.869028] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/t3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.871524] (t3_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/t3_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.871878] (t3_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/t3_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.872023] (t3_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/t3_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.872139] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/ament_index/resource_index/rust_packages/t3_interfaces\n'}
+[6.874557] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/rust/Cargo.toml\n'}
+[6.877069] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/rust/build.rs\n'}
+[6.879624] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/rust/src/lib.rs\n'}
+[6.882078] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/rust/src/msg.rs\n'}
+[6.884728] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/rust/src/msg/rmw.rs\n'}
+[6.887346] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/msg/FrameInfo.idl\n'}
+[6.889705] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/msg/PoseEstimate.idl\n'}
+[6.892133] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/msg/FrameInfo.msg\n'}
+[6.894613] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/msg/PoseEstimate.msg\n'}
+[6.897111] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/ament_index/resource_index/package_run_dependencies/t3_interfaces\n'}
+[6.899704] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/ament_index/resource_index/parent_prefix_path/t3_interfaces\n'}
+[6.902060] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/environment/ament_prefix_path.sh\n'}
+[6.904722] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/environment/ament_prefix_path.dsv\n'}
+[6.907295] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/environment/path.sh\n'}
+[6.909661] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/environment/path.dsv\n'}
+[6.912587] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/local_setup.bash\n'}
+[6.915169] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/local_setup.sh\n'}
+[6.917518] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/local_setup.zsh\n'}
+[6.918182] (-) TimerEvent: {}
+[6.920066] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/local_setup.dsv\n'}
+[6.922335] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/package.dsv\n'}
+[6.924672] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/ament_index/resource_index/packages/t3_interfaces\n'}
+[6.927093] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[6.928787] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.931183] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.933603] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.936024] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.938279] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.940419] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.942382] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/t3_interfacesConfig.cmake\n'}
+[6.944826] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/t3_interfacesConfig-version.cmake\n'}
+[6.947013] (t3_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/package.xml\n'}
+[6.949177] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_generator_c.so\n'}
+[6.949499] (t3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_generator_c.so" to ""\n'}
+[6.949623] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[6.949963] (t3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.950132] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[6.950272] (t3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.950365] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_c.so\n'}
+[6.950443] (t3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[6.950519] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.950601] (t3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.950677] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[6.950752] (t3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.950833] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_cpp.so\n'}
+[6.950908] (t3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[6.974785] (t3_interfaces) StdoutLine: {'line': b"Listing '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces'...\n"}
+[6.974997] (t3_interfaces) StdoutLine: {'line': b"Compiling '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/__init__.py'...\n"}
+[6.975121] (t3_interfaces) StdoutLine: {'line': b"Listing '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/msg'...\n"}
+[6.975226] (t3_interfaces) StdoutLine: {'line': b"Compiling '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/msg/__init__.py'...\n"}
+[6.975323] (t3_interfaces) StdoutLine: {'line': b"Compiling '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/msg/_frame_info.py'...\n"}
+[6.975419] (t3_interfaces) StdoutLine: {'line': b"Compiling '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages/t3_interfaces/msg/_pose_estimate.py'...\n"}
+[6.978253] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_generator_py.so\n'}
+[6.978606] (t3_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib/libt3_interfaces__rosidl_generator_py.so" to ""\n'}
+[6.978774] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/export_t3_interfaces__rosidl_generator_cExport.cmake\n'}
+[6.978927] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/export_t3_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.979074] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/export_t3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.979221] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/export_t3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.979308] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/t3_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.979387] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/t3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.979468] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/t3_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[6.979550] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/t3_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.979630] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/export_t3_interfaces__rosidl_generator_cppExport.cmake\n'}
+[6.979708] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/export_t3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.979796] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/export_t3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.980010] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/t3_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.980492] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/t3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.980584] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/t3_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[6.980732] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/t3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.980826] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/export_t3_interfaces__rosidl_generator_pyExport.cmake\n'}
+[6.980963] (t3_interfaces) StdoutLine: {'line': b'-- Installing: /home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake/export_t3_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.981060] (t3_interfaces) CommandEnded: {'returncode': 0}
+[6.994802] (t3_interfaces) JobEnded: {'identifier': 't3_interfaces', 'rc': 0}
+[6.995666] (t3_pose_estimation) JobStarted: {'identifier': 't3_pose_estimation'}
+[7.003449] (t3_pose_estimation) JobProgress: {'identifier': 't3_pose_estimation', 'progress': 'cmake'}
+[7.003992] (t3_pose_estimation) Command: {'cmd': ['/usr/local/bin/cmake', '/home/el-system/Documents/T3/ws_t3/src/t3_pose_estimation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation'], 'cwd': '/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'claude-code_2-1-209_agent'), ('USER', 'el-system'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'id_ID.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib:/home/el-system/.local/lib/python3.10/site-packages/openvino/libs:/home/el-system/ros2_ws/install/mid360_simulation/lib:/home/el-system/.local/opencv-4.10/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/el-system'), ('OLDPWD', '/home/el-system/Documents/T3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/el-system/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/el-system/.nvm/versions/node/v22.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1733'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3801'), ('NVM_DIR', '/home/el-system/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install:/home/el-system/ros2_ws/install:/home/el-system/KRTI_2026_PX4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'el-system'), ('JOURNAL_STREAM', '8:20737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('OPENVINO_LIBS', '/home/el-system/.local/lib/python3.10/site-packages/openvino/libs'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el-system'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/el-system/.local/bin:/home/el-system/.local/bin:/opt/ros/humble/bin:/home/el-system/.nvm/versions/node/v22.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/el-tech:@/tmp/.ICE-unix/1929,unix/el-tech:/tmp/.ICE-unix/1929'), ('INVOCATION_ID', '1b6b6ae613fb4d2db26251afa6c6cba0'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces:/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8ea3c60a-7fd5-493c-8ea5-7c70325c6e5a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('CLAUDE_CODE_SESSION_ID', '711f6767-852b-4937-b11e-28f5aa74e327'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/el-system/.local/share/claude/versions/2.1.209'), ('PYTHONPATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages:/home/el-system/.local/opencv-4.10/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces:/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble')]), 'shell': False}
+[7.008840] (t3_pose_estimation) StderrLine: {'line': b'CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[7.009013] (t3_pose_estimation) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[7.009120] (t3_pose_estimation) StderrLine: {'line': b'  CMake.\n'}
+[7.009201] (t3_pose_estimation) StderrLine: {'line': b'\n'}
+[7.009276] (t3_pose_estimation) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[7.009350] (t3_pose_estimation) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[7.009424] (t3_pose_estimation) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[7.009496] (t3_pose_estimation) StderrLine: {'line': b'\n'}
+[7.009566] (t3_pose_estimation) StderrLine: {'line': b'\n'}
+[7.018276] (-) TimerEvent: {}
+[7.053723] (t3_pose_estimation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[7.114320] (t3_pose_estimation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[7.118393] (-) TimerEvent: {}
+[7.126065] (t3_pose_estimation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.184889] (t3_pose_estimation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.200844] (t3_pose_estimation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.201088] (t3_pose_estimation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.201418] (t3_pose_estimation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.216802] (t3_pose_estimation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.218469] (-) TimerEvent: {}
+[7.289924] (t3_pose_estimation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.311144] (t3_pose_estimation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.311560] (t3_pose_estimation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.312009] (t3_pose_estimation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.318601] (-) TimerEvent: {}
+[7.322356] (t3_pose_estimation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.418739] (-) TimerEvent: {}
+[7.458341] (t3_pose_estimation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[7.515258] (t3_pose_estimation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.518909] (-) TimerEvent: {}
+[7.567527] (t3_pose_estimation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.619018] (-) TimerEvent: {}
+[7.640301] (t3_pose_estimation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.650254] (t3_pose_estimation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.664687] (t3_pose_estimation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.679137] (t3_pose_estimation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.698590] (t3_pose_estimation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.719244] (-) TimerEvent: {}
+[7.760857] (t3_pose_estimation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.764860] (t3_pose_estimation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.819376] (-) TimerEvent: {}
+[7.886965] (t3_pose_estimation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[7.919565] (-) TimerEvent: {}
+[7.927632] (t3_pose_estimation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[7.981734] (t3_pose_estimation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.993176] (t3_pose_estimation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.019677] (-) TimerEvent: {}
+[8.048154] (t3_pose_estimation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.049531] (t3_pose_estimation) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[8.112979] (t3_pose_estimation) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.119814] (-) TimerEvent: {}
+[8.147132] (t3_pose_estimation) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[8.175683] (t3_pose_estimation) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[8.219964] (-) TimerEvent: {}
+[8.313851] (t3_pose_estimation) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[8.320111] (-) TimerEvent: {}
+[8.320663] (t3_pose_estimation) StdoutLine: {'line': b'-- Found t3_interfaces: 0.1.0 (/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/share/t3_interfaces/cmake)\n'}
+[8.338984] (t3_pose_estimation) StderrLine: {'line': b'CMake Error at /opt/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake:227 (message):\n'}
+[8.339200] (t3_pose_estimation) StderrLine: {'line': b'  Could NOT find OpenCV (missing: video) (found version "4.10.0")\n'}
+[8.339302] (t3_pose_estimation) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.339385] (t3_pose_estimation) StderrLine: {'line': b'  /opt/cmake-4.1.2-linux-x86_64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake:591 (_FPHSA_FAILURE_MESSAGE)\n'}
+[8.339464] (t3_pose_estimation) StderrLine: {'line': b'  /home/el-system/.local/opencv-4.10/lib/cmake/opencv4/OpenCVConfig.cmake:354 (find_package_handle_standard_args)\n'}
+[8.339541] (t3_pose_estimation) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[8.339616] (t3_pose_estimation) StderrLine: {'line': b'\n'}
+[8.339691] (t3_pose_estimation) StderrLine: {'line': b'\n'}
+[8.339768] (t3_pose_estimation) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.347880] (t3_pose_estimation) CommandEnded: {'returncode': 1}
+[8.357822] (t3_pose_estimation) JobEnded: {'identifier': 't3_pose_estimation', 'rc': 1}
+[8.368280] (-) EventReactorShutdown: {}

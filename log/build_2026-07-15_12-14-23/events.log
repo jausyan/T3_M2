@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (-) JobUnselected: {'identifier': 't3_interfaces'}
+[0.000397] (t3_pose_estimation) JobQueued: {'identifier': 't3_pose_estimation', 'dependencies': OrderedDict([('t3_interfaces', '/home/el-system/Documents/T3/install/t3_interfaces')])}
+[0.000452] (t3_pose_estimation) JobStarted: {'identifier': 't3_pose_estimation'}
+[0.011659] (t3_pose_estimation) JobEnded: {'identifier': 't3_pose_estimation', 'rc': 1}
+[0.022088] (-) EventReactorShutdown: {}

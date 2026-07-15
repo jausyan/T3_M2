@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c8fea235b8047939f898.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "t3_interfaces__py",
+					"jsonFile" : "directory-t3_interfaces__py-1d5b94d7456d578d8689.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/el-system/Documents/T3/ws_t3/build/t3_interfaces/t3_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "t3_interfaces__rs",
+					"jsonFile" : "directory-t3_interfaces__rs-9f1d1036cbdc97e91a51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/el-system/Documents/T3/ws_t3/build/t3_interfaces/t3_interfaces__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "t3_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_t3_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_t3_interfaces_egg-31bef4bad0cbf6f794e8.json",
+					"name" : "ament_cmake_python_build_t3_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_t3_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_t3_interfaces-eaf2134df81fbb8e2b16.json",
+					"name" : "ament_cmake_python_symlink_t3_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces-4d7926297c13de2b3d89.json",
+					"name" : "t3_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__cpp-d29215c8df7c5f3c1351.json",
+					"name" : "t3_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "t3_interfaces__py::@94205a0a83971b1a1e8b",
+					"jsonFile" : "target-t3_interfaces__py-7c8c51ed54898ab5796a.json",
+					"name" : "t3_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_generator_c-b64580a22420d58f55d9.json",
+					"name" : "t3_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_generator_py-70ab3f1215cc6e5d69d4.json",
+					"name" : "t3_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_typesupport_c-ad2dc74d323c824ca770.json",
+					"name" : "t3_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_typesupport_c__pyext-d6826a67c5f1a27bc0ab.json",
+					"name" : "t3_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_typesupport_cpp-07b79c53707d7f15a1e5.json",
+					"name" : "t3_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_typesupport_fastrtps_c-6f36b25c5dbc5eab4560.json",
+					"name" : "t3_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_typesupport_fastrtps_c__pyext-5743cc5d90603c5d9e21.json",
+					"name" : "t3_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_typesupport_fastrtps_cpp-b6c0be05eb0c2eace277.json",
+					"name" : "t3_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_typesupport_introspection_c-e653f7a66e28058df7d1.json",
+					"name" : "t3_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_typesupport_introspection_c__pyext-b22becc894fc6fa86c99.json",
+					"name" : "t3_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces__rosidl_typesupport_introspection_cpp-2661b5a4fcb0dd4b37b5.json",
+					"name" : "t3_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "t3_interfaces__rs::@a462383c55b571634a87",
+					"jsonFile" : "target-t3_interfaces__rs-ba0e8d8abe3948c9c854.json",
+					"name" : "t3_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_interfaces_uninstall-26295d4f1211cf7566a6.json",
+					"name" : "t3_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-acd491b6cc05f5e4be20.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/el-system/Documents/T3/ws_t3/build/t3_interfaces",
+		"source" : "/home/el-system/Documents/T3/ws_t3/src/t3_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/frame_client_node" "/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/pose_estimator_node" "TARGETS" "frame_client_node" "pose_estimator_node" "DESTINATION" "lib/t3_pose_estimation")

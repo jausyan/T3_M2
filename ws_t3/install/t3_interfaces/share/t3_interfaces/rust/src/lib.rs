@@ -1,0 +1,1 @@
+/home/el-system/Documents/T3/ws_t3/build/t3_interfaces/rosidl_generator_rs/t3_interfaces/rust/src/lib.rs

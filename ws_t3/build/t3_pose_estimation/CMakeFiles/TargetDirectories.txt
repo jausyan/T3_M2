@@ -1,0 +1,11 @@
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/uninstall.dir
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/t3_pose_estimation_uninstall.dir
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/frame_client_node.dir
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/pose_estimator_node.dir
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/test.dir
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/edit_cache.dir
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/rebuild_cache.dir
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/list_install_components.dir
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/install.dir
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/install/local.dir
+/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation/CMakeFiles/install/strip.dir

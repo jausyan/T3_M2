@@ -1,0 +1,7 @@
+{
+  "package_name": "t3_interfaces",
+  "non_idl_tuples": [
+    "/home/el-system/Documents/T3/ws_t3/src/t3_interfaces:msg/FrameInfo.msg",
+    "/home/el-system/Documents/T3/ws_t3/src/t3_interfaces:msg/PoseEstimate.msg"
+  ]
+}

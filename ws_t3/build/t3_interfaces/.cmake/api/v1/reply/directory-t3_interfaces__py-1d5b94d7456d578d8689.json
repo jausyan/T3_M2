@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "t3_interfaces__py",
+		"source" : "/home/el-system/Documents/T3/ws_t3/build/t3_interfaces/t3_interfaces__py"
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c09374602a85b4ed1c3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "t3_pose_estimation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "frame_client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-frame_client_node-d4d1f5d3b303e92ca92e.json",
+					"name" : "frame_client_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_estimator_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_estimator_node-1bf56b2bced8d483f5d8.json",
+					"name" : "pose_estimator_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "t3_pose_estimation_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-t3_pose_estimation_uninstall-de10e9ce7a2e03413c45.json",
+					"name" : "t3_pose_estimation_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e54cbbe6096f2dd2461e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation",
+		"source" : "/home/el-system/Documents/T3/ws_t3/src/t3_pose_estimation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

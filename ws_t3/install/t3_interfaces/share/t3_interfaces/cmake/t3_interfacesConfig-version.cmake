@@ -1,0 +1,1 @@
+/home/el-system/Documents/T3/ws_t3/build/t3_interfaces/ament_cmake_core/t3_interfacesConfig-version.cmake

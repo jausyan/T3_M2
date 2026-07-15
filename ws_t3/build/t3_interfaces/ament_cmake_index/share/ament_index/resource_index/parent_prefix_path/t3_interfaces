@@ -1,0 +1,1 @@
+/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble

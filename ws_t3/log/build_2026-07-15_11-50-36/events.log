@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000139] (-) JobUnselected: {'identifier': 't3_interfaces'}
+[0.000203] (t3_pose_estimation) JobQueued: {'identifier': 't3_pose_estimation', 'dependencies': OrderedDict([('t3_interfaces', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces')])}
+[0.000427] (t3_pose_estimation) JobStarted: {'identifier': 't3_pose_estimation'}
+[0.011255] (t3_pose_estimation) JobProgress: {'identifier': 't3_pose_estimation', 'progress': 'cmake'}
+[0.012392] (t3_pose_estimation) JobProgress: {'identifier': 't3_pose_estimation', 'progress': 'build'}
+[0.013485] (t3_pose_estimation) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation', '--', '-j12', '-l12'], 'cwd': '/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'claude-code_2-1-209_agent'), ('USER', 'el-system'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'id_ID.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib:/home/el-system/.local/lib/python3.10/site-packages/openvino/libs:/home/el-system/ros2_ws/install/mid360_simulation/lib:/home/el-system/.local/opencv-4.10/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/el-system'), ('OLDPWD', '/home/el-system/Documents'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/el-system/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/el-system/.nvm/versions/node/v22.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1733'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3801'), ('NVM_DIR', '/home/el-system/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install:/home/el-system/ros2_ws/install:/home/el-system/KRTI_2026_PX4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'el-system'), ('JOURNAL_STREAM', '8:20737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('OPENVINO_LIBS', '/home/el-system/.local/lib/python3.10/site-packages/openvino/libs'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el-system'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/el-system/.local/bin:/home/el-system/.local/bin:/opt/ros/humble/bin:/home/el-system/.nvm/versions/node/v22.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/el-tech:@/tmp/.ICE-unix/1929,unix/el-tech:/tmp/.ICE-unix/1929'), ('INVOCATION_ID', '1b6b6ae613fb4d2db26251afa6c6cba0'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces:/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8ea3c60a-7fd5-493c-8ea5-7c70325c6e5a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('CLAUDE_CODE_SESSION_ID', '711f6767-852b-4937-b11e-28f5aa74e327'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/el-system/.local/share/claude/versions/2.1.209'), ('PYTHONPATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages:/home/el-system/.local/opencv-4.10/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces:/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble')]), 'shell': False}
+[0.054836] (t3_pose_estimation) StdoutLine: {'line': b'[ 50%] Built target frame_client_node\n'}
+[0.067238] (t3_pose_estimation) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/pose_estimator_node.dir/src/pose_estimator_node.cpp.o\n'}
+[0.099341] (-) TimerEvent: {}
+[0.199593] (-) TimerEvent: {}
+[0.299874] (-) TimerEvent: {}
+[0.400131] (-) TimerEvent: {}
+[0.500375] (-) TimerEvent: {}
+[0.600628] (-) TimerEvent: {}
+[0.700877] (-) TimerEvent: {}
+[0.801615] (-) TimerEvent: {}
+[0.901854] (-) TimerEvent: {}
+[1.002194] (-) TimerEvent: {}
+[1.102437] (-) TimerEvent: {}
+[1.202750] (-) TimerEvent: {}
+[1.303008] (-) TimerEvent: {}
+[1.403258] (-) TimerEvent: {}
+[1.503516] (-) TimerEvent: {}
+[1.603759] (-) TimerEvent: {}
+[1.704013] (-) TimerEvent: {}
+[1.804294] (-) TimerEvent: {}
+[1.904561] (-) TimerEvent: {}
+[2.004936] (-) TimerEvent: {}
+[2.105188] (-) TimerEvent: {}
+[2.205423] (-) TimerEvent: {}
+[2.305764] (-) TimerEvent: {}
+[2.406031] (-) TimerEvent: {}
+[2.506293] (-) TimerEvent: {}
+[2.606574] (-) TimerEvent: {}
+[2.706841] (-) TimerEvent: {}
+[2.807109] (-) TimerEvent: {}
+[2.907343] (-) TimerEvent: {}
+[3.007640] (-) TimerEvent: {}
+[3.107964] (-) TimerEvent: {}
+[3.208281] (-) TimerEvent: {}
+[3.308553] (-) TimerEvent: {}
+[3.408797] (-) TimerEvent: {}
+[3.509072] (-) TimerEvent: {}
+[3.609346] (-) TimerEvent: {}
+[3.709565] (-) TimerEvent: {}
+[3.809842] (-) TimerEvent: {}
+[3.910057] (-) TimerEvent: {}
+[4.010260] (-) TimerEvent: {}
+[4.110578] (-) TimerEvent: {}
+[4.210861] (-) TimerEvent: {}
+[4.311098] (-) TimerEvent: {}
+[4.411349] (-) TimerEvent: {}
+[4.511650] (-) TimerEvent: {}
+[4.611867] (-) TimerEvent: {}
+[4.712071] (-) TimerEvent: {}
+[4.812315] (-) TimerEvent: {}
+[4.912652] (-) TimerEvent: {}
+[5.012919] (-) TimerEvent: {}
+[5.113175] (-) TimerEvent: {}
+[5.213453] (-) TimerEvent: {}
+[5.313707] (-) TimerEvent: {}
+[5.413961] (-) TimerEvent: {}
+[5.514160] (-) TimerEvent: {}
+[5.614403] (-) TimerEvent: {}
+[5.714621] (-) TimerEvent: {}
+[5.814811] (-) TimerEvent: {}
+[5.915039] (-) TimerEvent: {}
+[6.015340] (-) TimerEvent: {}
+[6.115567] (-) TimerEvent: {}
+[6.215774] (-) TimerEvent: {}
+[6.315990] (-) TimerEvent: {}
+[6.416224] (-) TimerEvent: {}
+[6.516457] (-) TimerEvent: {}
+[6.616708] (-) TimerEvent: {}
+[6.716982] (-) TimerEvent: {}
+[6.817144] (-) TimerEvent: {}
+[6.917337] (-) TimerEvent: {}
+[7.017587] (-) TimerEvent: {}
+[7.117775] (-) TimerEvent: {}
+[7.217964] (-) TimerEvent: {}
+[7.318157] (-) TimerEvent: {}
+[7.418407] (-) TimerEvent: {}
+[7.518583] (-) TimerEvent: {}
+[7.618787] (-) TimerEvent: {}
+[7.718993] (-) TimerEvent: {}
+[7.819175] (-) TimerEvent: {}
+[7.919434] (-) TimerEvent: {}
+[8.019739] (-) TimerEvent: {}
+[8.059373] (t3_pose_estimation) StdoutLine: {'line': b'[100%] Linking CXX executable pose_estimator_node\n'}
+[8.119919] (-) TimerEvent: {}
+[8.220163] (-) TimerEvent: {}
+[8.320439] (-) TimerEvent: {}
+[8.420696] (-) TimerEvent: {}
+[8.520974] (-) TimerEvent: {}
+[8.621301] (-) TimerEvent: {}
+[8.665926] (t3_pose_estimation) StdoutLine: {'line': b'[100%] Built target pose_estimator_node\n'}
+[8.670905] (t3_pose_estimation) CommandEnded: {'returncode': 0}
+[8.671988] (t3_pose_estimation) JobProgress: {'identifier': 't3_pose_estimation', 'progress': 'install'}
+[8.674416] (t3_pose_estimation) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation'], 'cwd': '/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('AI_AGENT', 'claude-code_2-1-209_agent'), ('USER', 'el-system'), ('CLAUDE_CODE_ENTRYPOINT', 'cli'), ('LC_TIME', 'id_ID.UTF-8'), ('GIT_EDITOR', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/lib:/home/el-system/.local/lib/python3.10/site-packages/openvino/libs:/home/el-system/ros2_ws/install/mid360_simulation/lib:/home/el-system/.local/opencv-4.10/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/el-system'), ('OLDPWD', '/home/el-system/Documents'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/el-system/.nvm/versions/node/v22.19.0/bin'), ('NVM_INC', '/home/el-system/.nvm/versions/node/v22.19.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1733'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3801'), ('NVM_DIR', '/home/el-system/.nvm'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/el-system/drone/drone_guidance/install:/home/el-system/ros2_ws/install:/home/el-system/KRTI_2026_PX4/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'el-system'), ('JOURNAL_STREAM', '8:20737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('OPENVINO_LIBS', '/home/el-system/.local/lib/python3.10/site-packages/openvino/libs'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'el-system'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/el-system/.local/bin:/home/el-system/.local/bin:/opt/ros/humble/bin:/home/el-system/.nvm/versions/node/v22.19.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/el-tech:@/tmp/.ICE-unix/1929,unix/el-tech:/tmp/.ICE-unix/1929'), ('INVOCATION_ID', '1b6b6ae613fb4d2db26251afa6c6cba0'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces:/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8ea3c60a-7fd5-493c-8ea5-7c70325c6e5a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('CLAUDE_CODE_SESSION_ID', '711f6767-852b-4937-b11e-28f5aa74e327'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/el-system/Documents/T3/ws_t3/build/t3_pose_estimation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/el-system/.local/share/claude/versions/2.1.209'), ('PYTHONPATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces/local/lib/python3.10/dist-packages:/home/el-system/.local/opencv-4.10/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/el-system/Documents/T3/ws_t3/install/t3_interfaces:/home/el-system/drone/drone_guidance/install/vision_video:/home/el-system/drone/drone_guidance/install/vision:/home/el-system/ros2_ws/install/mid360_simulation:/home/el-system/KRTI_2026_PX4/install/vision_video:/home/el-system/KRTI_2026_PX4/install/vision_krti:/home/el-system/KRTI_2026_PX4/install/vision_drop:/home/el-system/KRTI_2026_PX4/install/control:/opt/ros/humble')]), 'shell': False}
+[8.676920] (t3_pose_estimation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.677281] (t3_pose_estimation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.677445] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/lib/t3_pose_estimation/frame_client_node\n'}
+[8.677546] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/lib/t3_pose_estimation/pose_estimator_node\n'}
+[8.677952] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/launch/mission2.launch.py\n'}
+[8.678465] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/config/camera_synthetic.yaml\n'}
+[8.679003] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/config/params.yaml\n'}
+[8.679117] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/rviz/t3_mission2.rviz\n'}
+[8.679217] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/ament_index/resource_index/package_run_dependencies/t3_pose_estimation\n'}
+[8.679328] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/ament_index/resource_index/parent_prefix_path/t3_pose_estimation\n'}
+[8.679425] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/environment/ament_prefix_path.sh\n'}
+[8.679517] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/environment/ament_prefix_path.dsv\n'}
+[8.679612] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/environment/path.sh\n'}
+[8.679707] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/environment/path.dsv\n'}
+[8.679796] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/local_setup.bash\n'}
+[8.679884] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/local_setup.sh\n'}
+[8.679971] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/local_setup.zsh\n'}
+[8.680067] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/local_setup.dsv\n'}
+[8.680156] (t3_pose_estimation) StdoutLine: {'line': b'-- Symlinking: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/package.dsv\n'}
+[8.681875] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/ament_index/resource_index/packages/t3_pose_estimation\n'}
+[8.682147] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/cmake/t3_pose_estimationConfig.cmake\n'}
+[8.682238] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/cmake/t3_pose_estimationConfig-version.cmake\n'}
+[8.682328] (t3_pose_estimation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/el-system/Documents/T3/ws_t3/install/t3_pose_estimation/share/t3_pose_estimation/package.xml\n'}
+[8.683029] (t3_pose_estimation) CommandEnded: {'returncode': 0}
+[8.700133] (t3_pose_estimation) JobEnded: {'identifier': 't3_pose_estimation', 'rc': 0}
+[8.700818] (-) EventReactorShutdown: {}
